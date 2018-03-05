@@ -17,7 +17,7 @@ Se utiliza este comando para deshacer el último commit y lo que había en el Wo
 
 **2. ¿Qué comando utilizaste en el paso 12? ¿Porqué?**
 
-`git reset --hard 5a2a6fa  ` 
+`git reflog ` `git reset --hard 5ac3f79  ` 
 
 Anterior al comando anterior utilicé
 `git reflog ` para así averigur el identificador del commit que había deshecho.
@@ -61,7 +61,7 @@ Sí, por que al retroceder te encontrarias con la rama anterior.
 **9. ¿Qué comando o comandos utilizaste en el paso 28?**
 
 `git reflog` 
-`git reset identificador` 
+`git reset 7fb1eeb` 
 `git reset --hard HEAD~1` 
 
 
@@ -78,7 +78,10 @@ al confirmar que lo quieres eleminar debes teclear el comando:
 --
 **11. ¿Qué comando o comandos utilizaste en el paso 30?**
 
-`git reset --hard HEAD~1` 
+`git reflog ` 
+`git reset --hard 7fb1eeb`
+
+
 
 
 
@@ -86,7 +89,7 @@ al confirmar que lo quieres eleminar debes teclear el comando:
 **12. ¿Qué comando o comandos utilizaste en el paso 32?**
 
 `git reflog ` 
-`git reset 8ae5097 ` 
+`git checkout e81d8a5 ` 
 
 
 
@@ -94,7 +97,7 @@ al confirmar que lo quieres eleminar debes teclear el comando:
 **13. ¿Qué comando o comandos utilizaste en el paso 33?**
 
 `git reflog ` 
-`git reset 58c88ec ` 
+`git checkout 7fb1eeb ` 
 
 
 
